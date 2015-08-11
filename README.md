@@ -1,6 +1,8 @@
 # Havana component compiler
 
+[![NPM version](https://badge.fury.io/js/havana-component-compiler.svg)](http://badge.fury.io/js/havana-component-compiler)
 [![Build Status](https://travis-ci.org/colinmeinke/havana-component-compiler.svg?branch=master)](https://travis-ci.org/colinmeinke/havana-component-compiler)
+[![Dependency status](https://david-dm.org/colinmeinke/havana-component-compiler.svg)](https://david-dm.org/colinmeinke/havana-component-compiler.svg)
 
 A component compiler.
 
