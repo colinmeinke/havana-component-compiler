@@ -1,7 +1,7 @@
 /* global describe it */
 
 import chai from 'chai';
-import ComponentCompiler from '../../dist/compiler.with-polyfill';
+import ComponentCompiler from '../../dist/compiler.server.with-polyfill';
 import Event from 'havana-event';
 
 const expect = chai.expect;

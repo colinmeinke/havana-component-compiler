@@ -121,8 +121,15 @@ However, by default this module will use an ES5
 compatible file that has been compiled using
 [Babel](https://babeljs.io).
 
+In the `dist` directory there are four files, the default
+is `compiler.server.js`. The default when using a client-side
+bundler that supports the
+[browser field](https://gist.github.com/defunctzombie/4339901)
+spec is `compiler.browser.js`.
+
 Havana component compiler currently requires the 
 [Babel polyfill](https://babeljs.io/docs/usage/polyfill).
-In the `dist` directory there are two files, the default
-`compiler.js` and `compiler.with-polyfill.js`
-that includes the Babel browser polyfill.
+You are expected to supply this yourself. However, as a
+courtesy you will also find `compiler.server.with-polyfill.js`
+and `compiler.browser.with-polyfill.js` in the `dist`
+directory.
